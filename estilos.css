@@ -7,21 +7,22 @@ body {
 }
 
 #container {
+    padding: 2em;
     border-width: thin;
     border-style: solid;
     border-color: rgb(63, 122, 122);
     border-radius: 6px;
     margin: auto;
     background: #000;
-    width: 400px;
+    max-width: 400px;
     height: 250px;
 }
 
 .titulo {
+    color: rgb(165, 165, 165);
     display: flex;
     justify-content: center;
     font-family: Arial;
-    color: blanchedalmond;
 }
 
 .botoes {
@@ -48,6 +49,10 @@ body {
     background-color: rgb(243, 1, 1);
 }
 
+.menos:active {
+    background-color: rgb(119, 0, 0);
+}
+
 .mais {
     font-size: xx-large;
     font-style: oblique;
@@ -64,6 +69,10 @@ body {
     background-color: rgb(0, 216, 0);
 }
 
+.mais:active {
+    background-color: rgb(37, 78, 29);
+}
+
 .reset {
     width: 75px;
     height: 75px;
@@ -77,4 +86,16 @@ body {
 
 .reset:hover {
     background-color: rgb(61, 61, 61);
+}
+
+.reset:active {
+    background-color: rgb(165, 165, 165);
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
