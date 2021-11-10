@@ -33,7 +33,8 @@ body {
     justify-content: space-around;
 }
 
-.menos, .mais {
+.menos,
+.mais {
     font-size: xx-large;
     font-style: oblique;
     border-color: rgb(54, 52, 52);
@@ -43,6 +44,7 @@ body {
     width: 150px;
     height: 75px;
 }
+
 .menos {
     background-color: rgb(180, 27, 27);
 }
@@ -55,6 +57,9 @@ body {
     background-color: rgb(119, 0, 0);
 }
 
+.mais {
+    background-color: green;
+}
 
 .mais:hover {
     background-color: rgb(0, 216, 0);
