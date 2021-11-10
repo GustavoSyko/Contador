@@ -23,12 +23,16 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .menos {
+    font-size: x-large;
+    border-color: rgb(54, 52, 52);
+    border-width: 2px;
+    border-style: solid;
     border-radius: 2em;
-    width: 80px;
+    width: 150px;
     height: 50px;
     background-color: rgb(180, 27, 27);
 }
@@ -38,9 +42,13 @@ body {
 }
 
 .mais {
+    font-size: x-large;
+    border-color: rgb(54, 52, 52);
+    border-width: 2px;
+    border-style: solid;
     border-radius: 2em;
     background-color: green;
-    width: 80px;
+    width: 150px;
     height: 50px;
 }
 
