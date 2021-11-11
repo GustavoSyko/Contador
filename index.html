@@ -25,6 +25,10 @@
 
         var resultado = 0;
 
+        function updateDisplay(resultado) {
+            document.getElementById('resultado').innerHTML = resultado;
+        }
+
         function mais() {
             updateDisplay(++resultado);
         }
