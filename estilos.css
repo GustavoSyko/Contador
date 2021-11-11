@@ -88,7 +88,7 @@ body {
     background-color: rgb(165, 165, 165);
 }
 
-.resultado {
+#resultado {
     display: flex;
     justify-content: center;
     color: wheat;
